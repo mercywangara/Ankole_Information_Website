@@ -34,8 +34,9 @@ body .container{
 }
 #logo{
     position: absolute;
-    left: 700px;
-    bottom: 550px;
+    left: 780px;
+    bottom: 650px;
+    width: 200px;
 }
 #breakfast{
     font-size: 40px;
@@ -56,11 +57,13 @@ body .container{
 #menu{
     background-color: black;
     width: 50%;
+    position: absolute;
+    margin-left: 50%;
 }
-.the_menu{
+/* .the_menu{
     display: flex;
     gap: none;
-}
+} */
 #Coffee_details{
     color: white;
     font-size: 20px;
@@ -74,14 +77,15 @@ body .container{
 }
 .menus{
     display: flex;
-    width: 50%;
+    /* width: 50%; */
 }
 .menus div{
     width: 50%;
 }
 .Coffee_details{
     display: flex;
-    gap: 100px;
+    gap: 60%;
+    width: 600%;
 }
 a{
     color: white;
@@ -99,23 +103,31 @@ a{
 }
 #menu_logo{
     position: absolute;
-    left: 200px;
-    bottom: 80px;
+    left: 250px;
+    bottom: 200px;
+    width: 200px;
 }
 #Breakfast{
     font-size: 40px;
     color: white;
 }
-ul{
+.nav_bar ul{
     position: absolute;
-    left: 10px;
-    bottom: 100px;
-    gap: 5%;
+    left: 500px;
+    bottom: 30px;
+    border: solid rgb(15, 15, 15);
+    background-color: rgb(15, 15, 15);
+    height: 100px;
+    border-radius: 60px;
+    width: 800px;
+    gap: 15%;
+    line-height: 3vh;
 }
 .reservations{
-    width: 200px;
-    height: 70px;
+    width: 150px;
+    height: 50px;
     border-radius: 35px;
+    background-color: grey;
 }
 .Reviews{
     background-color: black;
@@ -254,7 +266,7 @@ ul{
     border:  2px solid white;
     position: absolute;
     left: 470px;
-    bottom: 300px;
+    bottom: 200px;
     width: 400px;
     color: white;
     padding-left: 50px;
@@ -264,7 +276,7 @@ ul{
     border:  2px solid white;
     position: absolute;
     left: 950px;
-    bottom: 210px;
+    bottom: 110px;
     width: 400px;
     color: white;
     padding-left: 50px;
@@ -277,9 +289,10 @@ ul{
     position: relative;
     width: 1800px;
 }
-/* #fixed_menu{
+#fixed_menu{
     position: fixed;
-} */
+    height: 950px;
+}
 .reservation_containers{
     display: flex;
 }
@@ -324,7 +337,7 @@ input{
 }
 #welcome_image{
     height: 950px;
-    width: 150%;
+    width: 1800px;
     position: relative;
 }
 #welcome_message{
@@ -365,4 +378,59 @@ input{
 }
 #home_slide:nth-child(5){
     animation-delay: 12s;
+}
+#select{
+    width: 4%;
+    margin-left: 2%;
+    margin-top: -5%;
+    background: white;
+    border: solid white;
+    border-radius: 50%;
+    padding: -1%;
+    cursor: pointer;
+}
+#contacts_logo{
+    position: absolute;
+    left: 800px;
+    bottom: 700px;
+    width: 200px;
+}
+#reservations_logo{
+    left: 700px;
+    bottom: 700px;
+    width: 200px;
+}
+.navigation_bar ul{
+    position: absolute;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    border: solid rgb(15, 15, 15);
+    background-color: rgb(15, 15, 15);
+    height: 100px;
+    border-radius: 60px;
+    width: 800px;
+    gap: 15%;
+    line-height: 3vh;
+}
+.fa-whatsapp{
+    position: absolute;
+    left: 1660px;
+    bottom: 50px;
+    font-size: 90px;
+    color: white;
+}
+.fa-instagram{
+    position: absolute;
+    left: 1660px;
+    bottom: 900px;
+    font-size: 20px;
+    color: white;
+}
+.fa-facebook-f{
+    position: absolute;
+    left: 1720px;
+    bottom: 900px;
+    font-size: 20px;
+    color: white;
 }
