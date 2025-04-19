@@ -114,7 +114,7 @@ a{
 .nav_bar ul{
     position: absolute;
     left: 500px;
-    bottom: 30px;
+    bottom: 10px;
     border: solid rgb(15, 15, 15);
     background-color: rgb(15, 15, 15);
     height: 100px;
@@ -122,12 +122,33 @@ a{
     width: 800px;
     gap: 15%;
     line-height: 3vh;
+    display: flex;
+    gap: 15px;
+    font-size: 30px;
+    padding-top: 3%;
+}
+.nav_bar_Fadhille ul{
+    position: fixed;
+    left: 500px;
+    bottom: 10px;
+    border: solid rgb(15, 15, 15);
+    background-color: rgb(15, 15, 15);
+    height: 100px;
+    border-radius: 60px;
+    width: 800px;
+    gap: 15%;
+    line-height: 3vh;
+    display: flex;
+    gap: 15px;
+    font-size: 30px;
+    padding-top: 3%;
 }
 .reservations{
-    width: 150px;
-    height: 50px;
+    width: 180px;
+    height: 70px;
     border-radius: 35px;
     background-color: grey;
+    font-size: 20px;
 }
 .Reviews{
     background-color: black;
@@ -185,8 +206,26 @@ a{
     width: 100%;
     position: relative;
 }
-.events_contacts{
-    display: flex;
+.Accra_events_contacts{
+    position: absolute;
+    left: 150px;
+    bottom: 400px;
+    font-size: 20px;
+    color: white;
+}
+.Nairobi_events_contacts{
+    position: absolute;
+    left: 750px;
+    bottom: 400px;
+    font-size: 20px;
+    color: white;
+}
+.Zanzibar_events_contacts{
+    position: absolute;
+    left: 1350px;
+    bottom: 400px;
+    font-size: 20px;
+    color: white;
 }
 .events_images div{
     width: 50%;
@@ -266,7 +305,7 @@ a{
     border:  2px solid white;
     position: absolute;
     left: 470px;
-    bottom: 200px;
+    bottom: 330px;
     width: 400px;
     color: white;
     padding-left: 50px;
@@ -276,7 +315,7 @@ a{
     border:  2px solid white;
     position: absolute;
     left: 950px;
-    bottom: 110px;
+    bottom: 240px;
     width: 400px;
     color: white;
     padding-left: 50px;
@@ -380,19 +419,19 @@ input{
     animation-delay: 12s;
 }
 #select{
-    width: 4%;
-    margin-left: 2%;
-    margin-top: -5%;
+    width: 3%;
+    margin-top: 1%;
     background: white;
     border: solid white;
     border-radius: 50%;
     padding: -1%;
     cursor: pointer;
-}
+    height: 25%;
+  }
 #contacts_logo{
     position: absolute;
     left: 800px;
-    bottom: 700px;
+    bottom: 750px;
     width: 200px;
 }
 #reservations_logo{
@@ -404,7 +443,7 @@ input{
     position: absolute;
     position: absolute;
     left: 30px;
-    bottom: 30px;
+    bottom: 10px;
     border: solid rgb(15, 15, 15);
     background-color: rgb(15, 15, 15);
     height: 100px;
@@ -412,9 +451,20 @@ input{
     width: 800px;
     gap: 15%;
     line-height: 3vh;
+    display: flex;
+    gap: 15px;
+    font-size: 30px;
+    padding-top: 3%;
 }
 .fa-whatsapp{
     position: absolute;
+    left: 1660px;
+    bottom: 50px;
+    font-size: 90px;
+    color: white;
+}
+#fa-whatsapp-menu{
+    position: fixed;
     left: 1660px;
     bottom: 50px;
     font-size: 90px;
@@ -433,4 +483,16 @@ input{
     bottom: 900px;
     font-size: 20px;
     color: white;
+}
+#event{
+    height: 950px;
+}
+
+
+/*Responsiveness*/
+@media(max-width:600px){   
+}
+@media(601px-1024px){   
+}
+@media(min-width: 1025px){   
 }
